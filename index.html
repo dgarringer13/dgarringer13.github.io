@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Header Section -->
+    <header id="home" class="hero-section text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Your Name Here</h1>
+            <p class="lead text-muted">Information Systems Student</p>
+            <p class="text-muted">University of Utah</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">About Me</h2>
+            <p class="lead">
+                I am an Information Systems student at the University of Utah with a passion for leveraging technology to solve business problems. 
+                My career interests focus on data analytics and business intelligence, where I can help organizations make data-driven decisions. 
+                I'm particularly interested in artificial intelligence applications for business optimization and automating repetitive workflows. 
+                Technically, I enjoy working with databases, web development, and data visualization tools to create meaningful insights from complex datasets.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Microsoft Excel</li>
+                        <li>Data Analytics</li>
+                        <li>AI Prompt Engineering</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Projects</h2>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Project</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>AI Business Analysis</strong></td>
+                            <td>Analyze business data using ChatGPT and create actionable insights for decision-making</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Data Visualization</strong></td>
+                            <td>Dashboard built with Tableau showing key business metrics and trends</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Web Development</strong></td>
+                            <td>Responsive Bootstrap website with clean design and mobile-friendly layout</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Process Improvement</strong></td>
+                            <td>AI-assisted business workflow redesign to increase efficiency and reduce manual tasks</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Resume</h2>
+            <p class="lead mb-4">Resume coming soon</p>
+            <!-- Uncomment when you have a PDF resume -->
+            <!-- <a href="resume.pdf" class="btn btn-primary btn-lg" download>Download Resume</a> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Contact</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> <a href="mailto:your.email@utah.edu">your.email@utah.edu</a></li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/dgarringer13" target="_blank">github.com/dgarringer13</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
